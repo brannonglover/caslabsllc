@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import caslogo from '../images/cas-logo.png';
 
 function Header() {
@@ -24,17 +25,17 @@ function Header() {
           <span></span>
           <span></span>
         </div>
-        <div className={`menu-bg ${menuState}`}>
+        <nav className={`menu-bg ${menuState}`}>
           <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Contact Us</li>
-            <li>Customer Message</li>
-            <li>Samples Submission</li>
-            <li>Certification</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/contact">Contact Us</Link></li>
+            <li><Link to="/customers">Customer Message</Link></li>
+            <li><Link to="/samples">Samples Submission</Link></li>
+            <li><Link to="/certification">Certification</Link></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </div>
   )
