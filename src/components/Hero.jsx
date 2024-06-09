@@ -49,7 +49,7 @@ function Hero() {
       >
         {images.map(item => (
           <div key={item.id} className="slideshow">
-            <img src={item.image} />
+            <img src={item.image} alt="Analytics with care" />
           </div>
         ))}
       </Carousel>

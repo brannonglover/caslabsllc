@@ -16,7 +16,7 @@ function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <img src={caslogo} />
+        <img src={caslogo} alt="Carolina Analytics" />
       </div>
       <div className="menu" onClick={toggleMenu}>
         <div className="mobileMenu">
