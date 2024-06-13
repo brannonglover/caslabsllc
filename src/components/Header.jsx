@@ -4,13 +4,19 @@ import caslogo from '../images/cas-logo.png';
 
 function Header() {
   const [menuState, setMenuState] = useState("closed");
+  const [isChecked, setIsChecked] = useState(false);
   
-  function toggleMenu() {
-    if (menuState === "open") {
+  function toggleMenu(e) {
+    if (menuState === "open" && isChecked) {
       setMenuState("closed");
+      setIsChecked(false);
     } else {
       setMenuState("open");
     }
+  }
+
+  function checkHandler() {
+    setIsChecked(!isChecked);
   }
 
   return (
@@ -20,20 +26,20 @@ function Header() {
       </div>
       <div className="menu" onClick={toggleMenu}>
         <div className="mobileMenu">
-          <input type="checkbox" />
+          <input type="checkbox" checked={isChecked} onChange={checkHandler} />
           <span></span>
           <span></span>
           <span></span>
         </div>
         <nav className={`menu-bg ${menuState}`}>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/contact">Contact Us</Link></li>
-            <li><Link to="/customers">Customer Message</Link></li>
-            <li><Link to="/samples">Samples Submission</Link></li>
-            <li><Link to="/certification">Certification</Link></li>
+            <li><Link onClick={toggleMenu} to="/">Home</Link></li>
+            <li><Link onClick={toggleMenu} to="/about">About Us</Link></li>
+            <li><Link onClick={toggleMenu} to="/services">Services</Link></li>
+            <li><Link onClick={toggleMenu} to="/contact">Contact Us</Link></li>
+            <li><Link onClick={toggleMenu} to="/customers">Customer Message</Link></li>
+            <li><Link onClick={toggleMenu} to="/samples">Samples Submission</Link></li>
+            <li><Link onClick={toggleMenu} to="/certification">Certification</Link></li>
           </ul>
         </nav>
       </div>

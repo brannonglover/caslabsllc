@@ -4,6 +4,7 @@ body {
 
 body, html {
   overflow-x: hidden;
+  height: 100%;
 }
 
 button {
@@ -159,6 +160,34 @@ button {
 
     h1 {
       margin: 0 0 1rem;
+      text-align: center;
+      font-size: 1.4rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    .contact {
+      .phone {
+        margin-top: 2rem;
+
+        a {
+          color: #000;
+        }
+      }
+      .map {
+        margin-top: 2rem;
+        height: 25rem;
+
+        iframe {
+          width: 100%;
+        }
+      }
+      gmp-map {
+        height: 100%;
+      }
     }
   }
   

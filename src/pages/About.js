@@ -1,4 +1,4 @@
-import storefront from '../images/cas-labs.jpeg';
+import storefront from '../images/cas-labs.jpg';
 import '../styles/main.scss';
 
 function About() {
