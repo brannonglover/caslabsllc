@@ -15,6 +15,7 @@ function Services() {
 
   return (
     <div className="main-content">
+      <h1>Services</h1>
       <div className='services'>
         <select onChange={handleDropdown}>
           <option>select service...</option>
