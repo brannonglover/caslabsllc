@@ -1,195 +1,33 @@
 {
-  "Chemistry - Analytical": {
-    "services": [
-      "Acid Insoluble Ash",
-      "Acid Value",
-      "Alkalinity",
-      "Amino Acid Profile",
-      "Ammoniacal Nitrogen",
-      "Boric Acid",
-      "Calcium",
-      "Calcium (High Level)",
-      "Calories by Bomb Calorimeter",
-      "Chloride (as Sodium Chloride)",
-      "Cholesterol",
-      "Citric Acid",
-      "Ethanol",
-      "Ethoxyquin",
-      "Fat, Petroleum Ether Extract",
-      "Fat by Acid Hydrolysis",
-      "Fat by Alkaline Hydrolysis",
-      "Fatty Acid Profile % Relative",
-      "Fatty Acid Profile % by Weight",
-      "Flash Point",
-      "Free Fatty Acids",
-      "Hardness (Water)",
-      "Moisture",
-      "NSI (Nitrogen Solubility Index)",
-      "Nitrites",
-      "Non-Protein Nitrogen",
-      "Nutritional Labeling",
-      "Omega Fatty Acids",
-      "PDI (Protein Dispersibility Index)",
-      "Peroxide Value",
-      "Phosphorus",
-      "Protein (combustion)",
-      "Protein, Kjeldahl Nitrogen",
-      "Protein Solubility",
-      "Salt",
-      "Sand and Silica (Acid Insoluble Ash)",
-      "Specific Gravity",
-      "Sugar Profile",
-      "Sulfate",
-      "Sulfur",
-      "Tocopherols, total",
-      "Total solids",
-      "Urea Nitrogen",
-      "pH",
-      "trans-Fatty Acids"
+  "Chemistry - Analytical": [
+    "<ul><li>Acid Insoluble Ash</li><li>Acid Value</li><li>Alkalinity</li><li>Amino Acid Profile</li><li>Ammoniacal Nitrogen</li><li>Boric Acid</li><li>Calcium</li><li>Calcium (High Level)</li><li>Calories by Bomb Calorimeter</li><li>Chloride (as Sodium Chloride)</li><li>Cholesterol</li><li>Citric Acid</li><li>Ethanol</li><li>Ethoxyquin</li><li>Fat, Petroleum Ether Extract</li><li>Fat by Acid Hydrolysis</li><li>Fat by Alkaline Hydrolysis</li><li>Fatty Acid Profile % Relative</li><li>Fatty Acid Profile % by Weight</li><li>Flash Point</li><li>Free Fatty Acids</li><li>Hardness (Water)</li><li>Moisture</li><li>NSI (Nitrogen Solubility Index)</li><li>Nitrites</li><li>Non-Protein Nitrogen</li><li>Nutritional Labeling</li><li>Omega Fatty Acids</li><li>PDI (Protein Dispersibility Index)</li><li>Peroxide Value</li><li>Phosphorus</li><li>Protein (combustion)</li><li>Protein, Kjeldahl Nitrogen</li><li>Protein Solubility</li><li>Salt</li><li>Sand and Silica (Acid Insoluble Ash)</li><li>Specific Gravity</li><li>Sugar Profile</li><li>Sulfate</li><li>Sulfur</li><li>Tocopherols, total</li><li>Total solids</li><li>Urea Nitrogen</li><li>pH</li><li>trans-Fatty Acids</li></ul>"
+  ]
+  ,
+  "Fats": [
+    "<ul><li>Calories by Bomb Calorimeter</li><li>Cholesterol</li><li>Ethoxyquin</li><li>Fat, Petroleum Ether Extract</li><li>Fat by Acid Hydrolysis</li><li>Fat by Alkaline Hydrolysis</li><li>Fatty Acid Profile % Relative</li><li>Fatty Acid Profile % by Weight</li><li>Flash Point</li><li>Free Fatty Acids</li><li>Insoluble Impurities</li><li>Iodine Value</li><li>Lovibond Color</li><li>Moisture, Karl Fischer</li><li>Moisture and Volatile Matter</li><li>Peroxide Value</li><li>Pesticide Residues</li><li>Phosphorus</li><li>Refined and Bleached Color</li><li>Refining Loss</li><li>Saponification Value</li><li>Specific Gravity</li><li>Sulfur</li><li>Titer</li><li>Total Fatty Acids</li><li>Unsaponifiables Matter</li><li>Viscosity (Brookfield)</li></ul>"
+  ]
+  ,
+  "Feeds": [
+    "<ul><li>Carbohydrates</li><li>Chloride</li><li>Crude Fiber</li><li>Crude Fiber in Pet Food</li><li>Crude Protein</li><li>Ethoxyquin</li><li>Fat (By Acid Hydrolysis)</li><li>Fat (Ether Extract)</li><li>Fiber, Crude</li><li>Gross Energy</li><li>Moisture</li><li>Pepsin Digestibility (0.002%)</li><li>Pepsin Digestibility (0.02%)</li><li>Pepsin Digestibility AOAC (0.2%)</li><li>Pesticides Residues</li><li>Phosphorus</li><li>Protein</li><li>Protein, Kjeldahl</li><li>Protein Dispersibility Index (PDI)</li><li>Salt / Sodium</li><li>Starch</li><li>Suger, Total as Invert</li><li>Suger Profile</li><li>Trypsin Inhibitor</li><li>Urea (Non Protein Nitrogen)</li><li>Urease Activity (pH Rise)</li><li>pH rise (Urease Activity)</li>"
+  ]
+  ,
+  "Microbiology": [
+    "<ul><li>Aerobic Plate Count, Swab</li><li>Aerobic Plate Count</li><li>Anaerobic Plate Count</li><li>Clostridum perfrigens</li><li>Coliform</li><li>E Coli</li><li>Enterbacteriacea</li><li>Fecal Coliforms</li><li>Listeria monocytogenes</li><li>Mold count</li><li>Mold identification</li><li>Salmonella</li><li>Standard Plate Count</li><li>Staphylococcus aures</li><li>Total Plate Count</li><li>Yeast Count</li><li>Yeast and Mold Count</li>"
     ]
-  },
-  "Fats": {
-    "services": [
-      "Calories by Bomb Calorimeter",
-      "Cholesterol",
-      "Ethoxyquin",
-      "Fat, Petroleum Ether Extract",
-      "Fat by Acid Hydrolysis",
-      "Fat by Alkaline Hydrolysis",
-      "Fatty Acid Profile % Relative",
-      "Fatty Acid Profile % by Weight",
-      "Flash Point",
-      "Free Fatty Acids",
-      "Insoluble Impurities",
-      "Iodine Value",
-      "Lovibond Color",
-      "Moisture, Karl Fischer",
-      "Moisture and Volatile Matter",
-      "Peroxide Value",
-      "Pesticide Residues",
-      "Phosphorus",
-      "Refined and Bleached Color",
-      "Refining Loss",
-      "Saponification Value",
-      "Specific Gravity",
-      "Sulfur",
-      "Titer",
-      "Total Fatty Acids",
-      "Unsaponifiables Matter",
-      "Viscosity (Brookfield)"
+  ,
+  "Minerals": [
+      "<ul><li>Aluminum</li><li>Antimony</li><li>Arsenic</li><li>Barium</li><li>Bismuth</li><li>Boron</li><li>Cadmium</li><li>Calcium</li><li>Calcium (High Levels)</li><li>Chloride</li><li>Chromium</li><li>Cobalt</li><li>Copper</li><li>Iron</li><li>Lead</li><li>Magnesium</li><li>Manganese</li><li>Mercury</li><li>Nickel</li><li>Phosphorus</li><li>Potassium</li><li>Salt</li><li>Selenium</li><li>Silver</li><li>Sodium chloride</li><li>Sulfate</li><li>Sulfur</li><li>Tin</li><li>Zinc</li></ul>"
     ]
-  },
-  "Feeds": {
-    "services": [
-      "Carbohydrates",
-      "Chloride",
-      "Crude Fiber",
-      "Crude Fiber in Pet Food",
-      "Crude Protein",
-      "Ethoxyquin",
-      "Fat (By Acid Hydrolysis)",
-      "Fat (Ether Extract)",
-      "Fiber , Crude",
-      "Gross Energy",
-      "Moisture",
-      "Pepsin Digestibility  (0.002%)",
-      "Pepsin Digestibility  (0.02%)",
-      "Pepsin Digestibility AOAC (0.2%)",
-      "Pesticides Residues",
-      "Phosphorus",
-      "Protein",
-      "Protein, Kjeldahl",
-      "Protein Dispersibility Index (PDI)",
-      "Salt / Sodium",
-      "Starch",
-      "Suger, Total as Invert",
-      "Suger Profile",
-      "Trypsin Inhibitor",
-      "Urea (Non Protein Nitrogen)",
-      "Urease Activity (pH Rise)",
-      "pH rise (Urease Activity)"
-    ]
-  },
-  "Microbiology": {
-    "services": [
-      "Aerobic Plate Count, Swab",
-      "Aerobic Plate Count",
-      "Anaerobic Plate Count",
-      "Clostridum perfrigens",
-      "Coliform",
-      "E Coli",
-      "Enterbacteriacea",
-      "Fecal Coliforms",
-      "Listeria monocytogenes",
-      "Mold count",
-      "Mold identification",
-      "Salmonella",
-      "Standard Plate Count",
-      "Staphylococcus aures",
-      "Total Plate Count",
-      "Yeast Count",
-      "Yeast and Mold Count"
-    ]
-  },
-  "Minerals": {
-    "services": [
-      "Aluminum",
-      "Antimony",
-      "Arsenic",
-      "Barium",
-      "Bismuth",
-      "Boron",
-      "Cadmium",
-      "Calcium",
-      "Calcium (High Levels)",
-      "Chloride",
-      "Chromium",
-      "Cobalt",
-      "Copper",
-      "Iron",
-      "Lead",
-      "Magnesium",
-      "Manganese",
-      "Mercury",
-      "Nickel",
-      "Phosphorus",
-      "Potassium",
-      "Salt",
-      "Selenium",
-      "Silver",
-      "Sodium chloride",
-      "Sulfate",
-      "Sulfur",
-      "Tin",
-      "Zinc"
-    ]
-  },
-  "Mycotoxins": {
-    "services": [
+  ,
+  "Mycotoxins": [
       "<div className=\"main-content\"><h1>Our Customers</h1><img src=\"../images/testing.jpeg\" alt=\"Mycotoxin Testing Services\" /><ol><li>Aflatoxin (ELISA)</li><li>Aflatoxin B1, B2, G1, G2</li><li>Don (Vomitoxin)</li><li>Fumonisin</li><li>Ochratoxin</li><li>T2 Toxin</li><li>Vomitoxin (DON)</li><li>Zearalenone (F2 Toxin)</li></ol><p>Carolina Analytical Service regularly serves mycotoxin food testing to confirm feed safety and submission with the strict regulations. If a certain amount of mycotoxins i.e deoxynivalenol (DON), fumonisin, ochratoxin, aflatoxin B1, zearalenone, T-2 toxin are present in animal feed, they can adversely influence the health of animals and humans.</p><p>Mycotoxins are toxic metabolites created by various strains of fungi set up on food products. They are mostly tasteless, invisible, and chemically stable at elevated temperatures and vast storage periods. Because some of the mycotoxins are highly toxic, they can harm health; that is why you need proper testing for your feed livestock.</p><p>But Carolina's mycotoxin analysis guarantees the observation of your products with strict worldwide laws conserving animal and human health.</p><p>Our Carolina Analytical laboratory has high-level food testing capabilities that can guarantee your stocks estimate up to health and safety rules to perform testing mycotoxin in food analysis. Employing an enzyme-linked immunosorbent assay (ELISA) or liquid chromatography techniques, we recognize whether mycotoxins are present and also in what amounts.</p><p>Mycotoxins are often attributed with:<ul><li>Nuts</li><li>Grains</li><li>Coffee</li><li>Spices</li><li>Cereals</li><li>Oilseeds</li><li>Dried fruit</li><li>Oils and starches</li><li>Fruit and fruit juices</li></ul></p><p>We assure you that our food testing laboratory keeps your commodities within safe limits. You not only receive food safety regulations but also prevent the potential economic losses related to mycotoxin contamination. These can affect livestock or crops' loss, reduced animal productivity, compensation claims, and the subsequent effects of contamination on international and domestic trade.</p><p>Besides, Mycotoxins range in their toxicity by kind and end-user. Our laboratory mycotoxin tests utilize either liquid chromatography with tandem mass spectrophotometry (LC MSMS) or an enzyme-linked immunosorbent assay (ELISA). These mycotoxin analysis techniques provide reasonable levels of detection and quantification, assuring that your meal matches the regulatory requirements for the levels of mycotoxins available.</p><p>Carolina Analytical Services for mycotoxin include:<ul><li>T2 Toxin</li><li>Fumonisin</li><li>Ochratoxin</li><li>Don (Vomitoxin)</li><li>Aflatoxin (ELISA)</li><li>Zearalenone (F2 Toxin)</li><li>Aflatoxin B1, B2, G1, G2</li></ul></p><p>Approved Food Testing Laboratory:</p><p>Our mycotoxin testing laboratories govern under precise guidelines to uphold our status for self-sufficiency, integrity, and innovation. We are staffed by mechanics and scientists with years of food testing labs experience. Also, our experts have degrees in chemistry, agronomy, and microbiology and have also received the approval of various feed associations.</p><p>Since we attach to the most significant industry standards, your food is sure to fulfill national and international laws for mycotoxin levels. To find out how we can benefit your industry from our mycotoxin testing service, you have to contact Carolina Analytical Service now!</p></div>"
     ]
-  },
-  "Vitamins": {
-    "services": [
-      "Ascorbic Acid (Vitamin C)",
-      "Beta Carotene",
-      "Folic Acid",
-      "Menadione (Vitamin K)",
-      "Niacin",
-      "Pantothenic Acid",
-      "Pyridoxine (Vitamin B6)",
-      "Riboflavin (Vitamin B2)",
-      "Thiamine (Vitamin B1)",
-      "Tocopherols, Total, Alpha, Beta, Delta, and Gamma",
-      "Vitamin A, Total",
-      "Vitamin E, Total",
-      "Vitamin K (Menadione)"
+  ,
+  "Vitamins": [
+      "<ul><li>Ascorbic Acid (Vitamin C)</li><li>Beta Carotene</li><li>Folic Acid</li><li>Menadione (Vitamin K)</li><li>Niacin</li><li>Pantothenic Acid</li><li>Pyridoxine (Vitamin B6)</li><li>Riboflavin (Vitamin B2)</li><li>Thiamine (Vitamin B1)</li><li>Tocopherols, Total, Alpha, Beta, Delta, and Gamma</li><li>Vitamin A, Total</li><li>Vitamin E, Total</li><li>Vitamin K (Menadione)</li></ul>"
     ]
-  },
-  "Pet Foods and Pet Treats": {
-    "services": "<p>If you select us as your lab for testing Pet Treats or other Pet Products, please do the following:</p><p>Label an air tight plastic bag with our product name and/or sample number. If you write directly on the plastic, take care to use a permanent marker. Put 12 -16 oz. of your product in the bag, press the air out and seal it to prevent moisture gain or loss in mailing. Zip lock bags are excellent to use.</p><p>Please fill out the sample submission form with your mailing address and information at the top, email address, fax, and phone information. Request moisture, fat, protein and fiber to be tested on each sample submitted. Expected levels do not apply to pet treats.</p><p>If you have several products, you will need to send a sample of each product you plan to test, and we will test each different product.</p><p>For canned food we will need 2-4 cans. Fresh and/or frozen treats should be put in an airtight plastic zip lock bag and shipped in a cooler with ice packs.</p><p>We do not need to know your ingredients you use in making teats. Package it up and send in to us, you may use US Postal Service or UPS, Fed X, which ever is your choice, US Postal service will provide priority boxes for your use, free of charge.</p><p>We offer a complete label/nutritional analysis if desired, please call or email for pricing on your specific testing requirements. Payment is required with samples.</p><p>Our turn around time is 8 - 10 work days, unless you call in advance for priority/rush testing.</p><p>If you have any additional questions please feel free to call or email us.</p>"
-  },
-  "Lab Liability": {
-    "services": "<p>Carolina Analytical Services, LLC, provides product testing services to customers.</p><p>The liability that Carolina Analytical Services assumes for any loss, cost, claim, injury, liability or expense including attorney's fees, relating to or arising from any act or omission in its performance of product testing, shall be limited to the amount of the cost of the testing exhibited by Carolina Analytical Services, LLC.</p><p>In no event shall Carolina Analytical Services, LLC be liable to the customer for any indirect, consequential, or punitive damages.</p>"
-  }
+  ,
+  "Pet Foods and Pet Treats": ["<p>If you select us as your lab for testing Pet Treats or other Pet Products, please do the following:</p><p>Label an air tight plastic bag with our product name and/or sample number. If you write directly on the plastic, take care to use a permanent marker. Put 12 -16 oz. of your product in the bag, press the air out and seal it to prevent moisture gain or loss in mailing. Zip lock bags are excellent to use.</p><p>Please fill out the sample submission form with your mailing address and information at the top, email address, fax, and phone information. Request moisture, fat, protein and fiber to be tested on each sample submitted. Expected levels do not apply to pet treats.</p><p>If you have several products, you will need to send a sample of each product you plan to test, and we will test each different product.</p><p>For canned food we will need 2-4 cans. Fresh and/or frozen treats should be put in an airtight plastic zip lock bag and shipped in a cooler with ice packs.</p><p>We do not need to know your ingredients you use in making teats. Package it up and send in to us, you may use US Postal Service or UPS, Fed X, which ever is your choice, US Postal service will provide priority boxes for your use, free of charge.</p><p>We offer a complete label/nutritional analysis if desired, please call or email for pricing on your specific testing requirements. Payment is required with samples.</p><p>Our turn around time is 8 - 10 work days, unless you call in advance for priority/rush testing.</p><p>If you have any additional questions please feel free to call or email us.</p>"]
+  ,
+  "Lab Liability": ["<p>Carolina Analytical Services, LLC, provides product testing services to customers.</p><p>The liability that Carolina Analytical Services assumes for any loss, cost, claim, injury, liability or expense including attorney's fees, relating to or arising from any act or omission in its performance of product testing, shall be limited to the amount of the cost of the testing exhibited by Carolina Analytical Services, LLC.</p><p>In no event shall Carolina Analytical Services, LLC be liable to the customer for any indirect, consequential, or punitive damages.</p>"]
 }
