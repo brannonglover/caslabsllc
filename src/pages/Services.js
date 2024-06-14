@@ -17,7 +17,7 @@ function Services() {
     <div className="main-content">
       <h1>Services</h1>
       <div className='services'>
-        <select onChange={handleDropdown}>
+        <select onChange={handleDropdown} className='services-dropdown'>
           <option>select service...</option>
           {Object.keys(services).map(service => {
             return (
