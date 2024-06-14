@@ -195,25 +195,25 @@ button {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
+    margin-bottom: 2rem;
 
-    select.services-dropdown {
+    &::before {
+      content: '\2304';
+      font-size: 25px;
+      line-height: 23px;
+      padding-right: 2px;
+      position: absolute;
+      right: 5.5rem;
+    }
+
+    select {
       appearance: none;
       -webkit-appearance: none;
       font-size: 1.1rem;
       border-radius: 10px;
       padding: .5rem 1rem;
       vertical-align: middle;
-
-      &::before {
-        content: '\25bc';
-        color: #000;
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 30px;
-        line-height: 23px;
-        padding-right: 2px;
-      }
     }
   }
   
