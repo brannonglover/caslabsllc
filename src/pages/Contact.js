@@ -1,3 +1,4 @@
+import { APIProvider, Map } from '@vis.gl/react-google-maps';
 import '../styles/main.scss';
 
 function Contact() {
@@ -9,9 +10,13 @@ function Contact() {
           Phone: <a href="tel:919-837-2021">919-837-2021</a>
         </div>
         <div className="map">
-          <gmp-map center="35.5863037109375,-79.42861938476562" zoom="14" map-id="DEMO_MAP_ID">
-            <gmp-advanced-marker position="35.5863037109375,-79.42861938476562" title="My location"></gmp-advanced-marker>
-          </gmp-map>
+          <APIProvider apiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
+            <Map
+              defaultCenter={{ lat: 35.5863037109375, lng: -79.42861938476562 }}
+              defaultZoom={15}
+              disableDefaultUI={true}
+            />
+          </APIProvider>
         </div>
       </div>
     </div>
