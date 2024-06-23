@@ -21,7 +21,7 @@ function Services() {
           <option>select service...</option>
           {Object.keys(services).map(service => {
             return (
-              <option value={service}>{service}</option>
+              <option key={service} value={service}>{service}</option>
             )
           })}
         </select>

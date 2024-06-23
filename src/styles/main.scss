@@ -198,22 +198,19 @@ button {
     position: relative;
     margin-bottom: 2rem;
 
-    &::before {
-      content: '\2304';
-      font-size: 25px;
-      line-height: 23px;
-      padding-right: 2px;
-      position: absolute;
-      right: 5.5rem;
-    }
-
     select {
-      appearance: none;
-      -webkit-appearance: none;
       font-size: 1.1rem;
       border-radius: 10px;
       padding: .5rem 1rem;
       vertical-align: middle;
+      color: #000;
+    } 
+  }
+
+  .services-output {
+    img {
+      width: 100%;
+      height: auto;
     }
   }
   
