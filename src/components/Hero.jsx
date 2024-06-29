@@ -9,7 +9,7 @@ function Hero() {
     },
     {
       id: 1,
-      image: '/chickens.webp'
+      image: '/chickens.jpg'
     },
     {
       id: 2,
