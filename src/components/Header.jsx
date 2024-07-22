@@ -5,7 +5,7 @@ import caslogo from '../images/cas-logo.png';
 function Header() {
   const [menuState, setMenuState] = useState("closed");
   const [isChecked, setIsChecked] = useState(false);
-  const [windowSize, setWindowSize] = useState(false);
+  const [windowSize, setWindowSize] = useState(window.innerWidth > 1024 ? true : false);
   
   function toggleMenu(e) {
     if (menuState === "open" && isChecked) {
