@@ -7,7 +7,8 @@ function Contact() {
       <h1>Contact Us</h1>
       <div className="contact">
         <div className="phone">
-          Phone: <a href="tel:919-837-2021">919-837-2021</a>
+          Phone: <a href="tel:919-837-2021">919-837-2021</a><br/>
+          Email: <a href="mailto:caslabsllc@gmail.com">caslabsllc@gmail.com</a>
         </div>
         <div className="map">
           <APIProvider apiKey={process.env.REACT_APP_GOOGLE_API_KEY}>

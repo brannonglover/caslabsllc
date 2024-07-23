@@ -5,27 +5,31 @@ function Hero() {
   const [images] = useState([
     {
       id: 0,
-      image: '/cats.jpeg'
+      image: '/swine.jpg'
     },
     {
       id: 1,
-      image: '/chickens.jpg'
+      image: '/chicken-coup.jpg'
     },
     {
       id: 2,
-      image: '/cows.jpg'
+      image: '/chickens.jpg'
     },
     {
       id: 3,
-      image: '/dog.jpeg',
+      image: '/cows.jpg'
     },
     {
       id: 4,
-      image: '/goat.jpeg',
+      image: '/dog.jpeg',
     },
     {
       id: 5,
-      image: '/swine.jpg'
+      image: '/goat.jpeg',
+    },
+    {
+      id: 6,
+      image: '/cats.jpeg'
     },
   ])
   const carouselRef = useRef(null);
