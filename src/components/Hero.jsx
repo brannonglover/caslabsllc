@@ -41,7 +41,7 @@ function Hero() {
       <Carousel
         ref={carouselRef}
         enableAutoPlay={true}
-        autoPlaySpeed={3000}
+        autoPlaySpeed={7000}
         onNextEnd={({ index }) => {
           clearTimeout(resetTimeout)
           if (index + 1 === totalPages) {
