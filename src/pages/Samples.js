@@ -15,7 +15,7 @@ function Samples() {
             <img src={pdf} alt="PDF" />
           </div>
           <div>
-            <a href="../assets/Carolina-Analytical-Services-Sample-Submission-Form-2021.pdf" title="Carolina Analytical Services Sample Form">Carolina-Analytical-Services-Sample-Submission-Form-2021.pdf</a><br />
+            <a href="/Carolina-Analytical-Services-Sample-Submission-Form-2021.pdf" title="Carolina Analytical Services Sample Form">Carolina-Analytical-Services-Sample-Submission-Form-2021.pdf</a><br />
             Size: 223.417 Kb<br />
             Type: pdf
           </div>
