@@ -4,12 +4,12 @@ import Carousel from 'react-elastic-carousel'
 function Hero() {
   const [images] = useState([
     {
-      id: 0,
-      image: '/swine.jpg'
-    },
-    {
       id: 1,
       image: '/chicken-coup.jpg'
+    },
+    {
+      id: 0,
+      image: '/swine.jpg'
     },
     {
       id: 2,
