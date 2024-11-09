@@ -9,6 +9,8 @@ function Certification() {
       <p>Member of the National Oil-seed Producers Association</p>
       <p>Member of the American Chemical Society</p>
       <p>Member of The Poultry Federation</p>
+      <p><a href="../assets/Approved%20Chemist%20Toolbox%202024.pdf" target="_blank">Approved Chemists Letter</a></p>
+      <p><a href="../assets/Approved%20Chemists%20Toolkit%202024-2025.zip" target="_blank">Approved Chemist Tool Kit</a></p>
       <h2>Carolina Analytical Services, LLC.  participates in the following check sample programs:</h2>
       <p>AAFCO Feed Check Sample</p>
       <p>AOCS Smalley Series-Oilseed Meal</p>
